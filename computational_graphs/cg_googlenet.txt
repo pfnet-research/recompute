@@ -1,0 +1,2507 @@
+266 268
+0 262144 _
+1 262144 _
+2 25690112 _
+3 131072 _
+4 25690112 _
+5 131072 _
+6 128000 _
+7 25690112 _
+8 77070336 _
+9 1081344 _
+10 77070336 _
+11 262144 _
+12 77070336 _
+13 262144 _
+14 262144 _
+15 19267584 _
+16 6422528 _
+17 131072 _
+18 131072 _
+19 12845056 _
+20 128000 _
+21 4 _
+22 9633792 _
+23 9633792 _
+24 12845056 _
+25 4 _
+26 1605632 _
+27 73728 /predictor/inc3a/proj3/W
+28 1843200 /predictor/inc4e/conv3/W
+29 384 /predictor/inc3a/proj3/b
+30 1280 /predictor/inc4e/conv3/b
+31 442368 /predictor/inc3a/conv3/W
+32 67584 /predictor/inc4e/proj5/W
+33 512 /predictor/inc3a/conv3/b
+34 128 /predictor/inc4e/proj5/b
+35 12288 /predictor/inc3a/proj5/W
+36 409600 /predictor/inc4e/conv5/W
+37 24576 /predictor/inc3a/projp/W
+38 512 /predictor/inc4e/conv5/b
+39 128 /predictor/inc3a/projp/b
+40 270336 /predictor/inc4e/projp/W
+41 25690112 _
+42 131072 /predictor/inc3b/conv1/W
+43 512 /predictor/inc4e/projp/b
+44 512 /predictor/inc3b/conv1/b
+45 851968 /predictor/inc5a/conv1/W
+46 131072 /predictor/inc3b/proj3/W
+47 1024 /predictor/inc5a/conv1/b
+48 512 /predictor/inc3b/proj3/b
+49 425984 /predictor/inc5b/projp/W
+50 4 _
+51 13246464 _
+52 131072 /predictor/inc4b/projp/W
+53 1605632 _
+54 184320 /predictor/inc4a/proj3/W
+55 512 /predictor/inc5b/projp/b
+56 256 /predictor/inc4b/projp/b
+57 4 _
+58 3211264 _
+59 384 /predictor/inc4a/proj3/b
+60 4096000 /predictor/loss3_fc/W
+61 4 _
+62 20873216 _
+63 4000 /predictor/loss3_fc/b
+64 262144 /predictor/inc4c/conv1/W
+65 718848 /predictor/inc4a/conv3/W
+66 20873216 _
+67 1204224 _
+68 512 /predictor/inc4c/conv1/b
+69 832 /predictor/inc4a/conv3/b
+70 262144 /predictor/loss1_conv/W
+71 1003520 _
+72 131072 _
+73 512 /predictor/loss1_conv/b
+74 1003520 _
+75 2007040 _
+76 262144 /predictor/inc4c/proj3/W
+77 30720 /predictor/inc4a/proj5/W
+78 512 /predictor/inc4c/proj3/b
+79 8388608 /predictor/loss1_fc1/W
+80 64 /predictor/inc4a/proj5/b
+81 200704 _
+82 4096 /predictor/loss1_fc1/b
+83 200704 _
+84 1179648 /predictor/inc4c/conv3/W
+85 76800 /predictor/inc4a/conv5/W
+86 802816 _
+87 4096000 /predictor/loss1_fc2/W
+88 1024 /predictor/inc4c/conv3/b
+89 192 /predictor/inc4a/conv5/b
+90 5218304 _
+91 4000 /predictor/loss1_fc2/b
+92 2408448 _
+93 49152 /predictor/inc4c/proj5/W
+94 122880 /predictor/inc4a/projp/W
+95 802816 _
+96 270336 /predictor/loss2_conv/W
+97 96 /predictor/inc4c/proj5/b
+98 256 /predictor/inc4a/projp/b
+99 5218304 _
+100 512 /predictor/loss2_conv/b
+101 1277952 /predictor/inc5b/conv1/W
+102 1536 /predictor/inc5b/conv1/b
+103 638976 /predictor/inc5b/proj3/W
+104 768 /predictor/inc5b/proj3/b
+105 2654208 /predictor/inc5b/conv3/W
+106 1536 /predictor/inc5b/conv3/b
+107 159744 /predictor/inc5b/proj5/W
+108 192 /predictor/inc5b/proj5/b
+109 614400 /predictor/inc5b/conv5/W
+110 512 /predictor/inc5b/conv5/b
+111 37632 /predictor/conv1/W
+112 12845056 _
+113 532480 /predictor/inc5a/proj3/W
+114 65536 /predictor/inc4d/proj5/W
+115 1605632 _
+116 3211264 _
+117 884736 /predictor/inc3b/conv3/W
+118 640 /predictor/inc5a/proj3/b
+119 128 /predictor/inc4d/proj5/b
+120 768 /predictor/inc3b/conv3/b
+121 19267584 _
+122 1843200 /predictor/inc5a/conv3/W
+123 204800 /predictor/inc4d/conv5/W
+124 3211264 _
+125 32768 /predictor/inc3b/proj5/W
+126 1280 /predictor/inc5a/conv3/b
+127 256 /predictor/inc4d/conv5/b
+128 4816896 _
+129 128 /predictor/inc3b/proj5/b
+130 25690112 _
+131 25690112 _
+132 106496 /predictor/inc5a/proj5/W
+133 131072 /predictor/inc4d/projp/W
+134 12845056 _
+135 307200 /predictor/inc3b/conv5/W
+136 19267584 _
+137 128 /predictor/inc5a/proj5/b
+138 256 /predictor/inc4d/projp/b
+139 384 /predictor/inc3b/conv5/b
+140 3211264 _
+141 409600 /predictor/inc5a/conv5/W
+142 540672 /predictor/inc4e/conv1/W
+143 65536 /predictor/inc3b/projp/W
+144 3211264 _
+145 512 /predictor/inc5a/conv5/b
+146 9633792 _
+147 1024 /predictor/inc4e/conv1/b
+148 256 /predictor/inc3b/projp/b
+149 25690112 _
+150 425984 /predictor/inc5a/projp/W
+151 337920 /predictor/inc4e/proj3/W
+152 12042240 _
+153 368640 /predictor/inc4a/conv1/W
+154 512 /predictor/inc5a/projp/b
+155 6422528 _
+156 640 /predictor/inc4e/proj3/b
+157 768 /predictor/inc4a/conv1/b
+158 48168960 _
+159 4014080 _
+160 6422528 _
+161 602112 _
+162 12845056 _
+163 1605632 _
+164 3612672 _
+165 8388608 /predictor/loss2_fc1/W
+166 7225344 _
+167 51200 /predictor/inc3a/conv5/W
+168 4096 /predictor/loss2_fc1/b
+169 12845056 _
+170 802816 _
+171 1605632 _
+172 4096000 /predictor/loss2_fc2/W
+173 3211264 _
+174 64 /predictor/inc3a/proj5/b
+175 802816 _
+176 1605632 _
+177 12845056 _
+178 4000 /predictor/loss2_fc2/b
+179 256 /predictor/conv1/b
+180 12845056 _
+181 16384 /predictor/conv2_reduce/W
+182 12845056 _
+183 3211264 _
+184 102760448 _
+185 6422528 _
+186 256 /predictor/conv2_reduce/b
+187 1605632 _
+188 442368 /predictor/conv2/W
+189 3612672 _
+190 13246464 _
+191 602112 _
+192 5218304 _
+193 768 /predictor/conv2/b
+194 13246464 _
+195 602112 _
+196 4014080 _
+197 1605632 _
+198 8028160 _
+199 49152 /predictor/inc3a/conv1/W
+200 12845056 _
+201 802816 _
+202 2809856 _
+203 1605632 _
+204 256 /predictor/inc3a/conv1/b
+205 802816 _
+206 3211264 _
+207 12845056 _
+208 5218304 _
+209 1204224 _
+210 153600 /predictor/inc4c/conv5/W
+211 48168960 _
+212 327680 /predictor/inc4b/conv1/W
+213 2408448 _
+214 2408448 _
+215 256 /predictor/inc4c/conv5/b
+216 640 /predictor/inc4b/conv1/b
+217 2408448 _
+218 301056 _
+219 5218304 _
+220 131072 /predictor/inc4c/projp/W
+221 229376 /predictor/inc4b/proj3/W
+222 301056 _
+223 802816 _
+224 2809856 _
+225 256 /predictor/inc4c/projp/b
+226 401408 _
+227 448 /predictor/inc4b/proj3/b
+228 3211264 _
+229 401408 _
+230 5218304 _
+231 1204224 _
+232 229376 /predictor/inc4d/conv1/W
+233 903168 /predictor/inc4b/conv3/W
+234 19267584 0
+235 802816 _
+236 12042240 _
+237 448 /predictor/inc4d/conv1/b
+238 896 /predictor/inc4b/conv3/b
+239 6422528 _
+240 128 1
+241 4014080 _
+242 1605632 _
+243 131072 _
+244 6422528 _
+245 128 2
+246 294912 /predictor/inc4d/proj3/W
+247 49152 /predictor/inc4b/proj5/W
+248 12845056 _
+249 131072 _
+250 576 /predictor/inc4d/proj3/b
+251 96 /predictor/inc4b/proj5/b
+252 128 /predictor/inc3a/conv5/b
+253 128 3
+254 12845056 _
+255 102760448 _
+256 2809856 _
+257 5619712 _
+258 1492992 /predictor/inc4d/conv3/W
+259 153600 /predictor/inc4b/conv5/W
+260 128000 _
+261 1152 /predictor/inc4d/conv3/b
+262 256 /predictor/inc4b/conv5/b
+263 1048576 _
+264 602112 _
+265 262144 _
+forward
+1 1
+194 _
+9
+AveragePooling2D
+{"kh": 5, "kw": 5, "sy": 3, "sx": 3, "ph": 0, "pw": 0, "cover_all": false, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 41, "lazy_grad_sum": false}
+forward
+1 1
+10 _
+12
+LocalResponseNormalization
+{"n": 5, "k": 1, "alpha": 2e-05, "beta": 0.75, "indexes": null, "unit_scale": null, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 8, "lazy_grad_sum": false}
+forward
+3 1
+3 _
+87 _
+91 _
+6
+LinearFunction
+{"_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_config_use_ideep": "never", "_output_count": 1, "rank": 32, "lazy_grad_sum": false}
+forward
+1 1
+8 _
+10
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 7, "lazy_grad_sum": false}
+forward
+3 1
+9 _
+96 _
+100 _
+11
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 42, "lazy_grad_sum": false}
+forward
+3 1
+15 _
+27 _
+29 _
+22
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 10, "lazy_grad_sum": false}
+forward
+1 1
+11 _
+13
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 43, "lazy_grad_sum": false}
+forward
+1 1
+12 _
+15
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 2, "sx": 2, "ph": 0, "pw": 0, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 9, "lazy_grad_sum": false}
+forward
+3 1
+14 _
+165 _
+168 _
+18
+LinearFunction
+{"_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_config_use_ideep": "never", "_output_count": 1, "rank": 45, "lazy_grad_sum": false}
+forward
+3 1
+15 _
+199 _
+204 _
+16
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 10, "lazy_grad_sum": false}
+forward
+1 1
+13 _
+14
+Reshape
+{"shape": [32, -1], "_cnt": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 44, "lazy_grad_sum": false}
+forward
+1 1
+18 _
+17
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 46, "lazy_grad_sum": false}
+forward
+3 1
+131 _
+42 _
+44 _
+19
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 15, "lazy_grad_sum": false}
+forward
+3 1
+134 _
+117 _
+120 _
+136
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 17, "lazy_grad_sum": false}
+forward
+3 1
+17 _
+172 _
+178 _
+20
+LinearFunction
+{"_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_config_use_ideep": "never", "_output_count": 1, "rank": 47, "lazy_grad_sum": false}
+forward
+1 1
+22 _
+23
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 11, "lazy_grad_sum": false}
+forward
+3 1
+23 _
+31 _
+33 _
+24
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 12, "lazy_grad_sum": false}
+forward
+1 1
+26 _
+115
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 11, "lazy_grad_sum": false}
+forward
+1 1
+211 _
+152
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 2, "sx": 2, "ph": 0, "pw": 0, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 20, "lazy_grad_sum": false}
+forward
+3 1
+15 _
+35 _
+174 _
+26
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 10, "lazy_grad_sum": false}
+forward
+2 1
+260 _
+253 _
+50
+SoftmaxCrossEntropy
+{"normalize": true, "cache_score": true, "class_weight": null, "ignore_label": -1, "reduce": "mean", "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 61, "lazy_grad_sum": false}
+forward
+3 1
+131 _
+46 _
+48 _
+112
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 15, "lazy_grad_sum": false}
+forward
+3 1
+115 _
+167 _
+252 _
+116
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 12, "lazy_grad_sum": false}
+forward
+2 1
+21 _
+25 _
+57
+Add
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 49, "lazy_grad_sum": false}
+forward
+1 1
+41 _
+2
+LocalResponseNormalization
+{"n": 5, "k": 1, "alpha": 2e-05, "beta": 0.75, "indexes": null, "unit_scale": null, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 3, "lazy_grad_sum": false}
+forward
+3 1
+2 _
+181 _
+186 _
+4
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 4, "lazy_grad_sum": false}
+forward
+4 1
+160 _
+198 _
+206 _
+58 _
+62
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 44, "lazy_grad_sum": false}
+forward
+2 1
+57 _
+50 _
+61
+Add
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 62, "lazy_grad_sum": false}
+forward
+1 1
+62 _
+66
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 45, "lazy_grad_sum": false}
+forward
+1 1
+67 _
+209
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 53, "lazy_grad_sum": false}
+forward
+3 1
+192 _
+113 _
+118 _
+71
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 47, "lazy_grad_sum": false}
+forward
+1 1
+71 _
+74
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 48, "lazy_grad_sum": false}
+forward
+3 1
+74 _
+122 _
+126 _
+75
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 49, "lazy_grad_sum": false}
+forward
+1 1
+81 _
+83
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 48, "lazy_grad_sum": false}
+forward
+3 1
+192 _
+132 _
+137 _
+81
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 47, "lazy_grad_sum": false}
+forward
+1 1
+72 _
+243
+Dropout
+{"dropout_ratio": 0.4, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 58, "lazy_grad_sum": false}
+forward
+3 1
+83 _
+141 _
+145 _
+86
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 49, "lazy_grad_sum": false}
+forward
+3 1
+209 _
+105 _
+106 _
+214
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 54, "lazy_grad_sum": false}
+forward
+3 1
+90 _
+150 _
+154 _
+95
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 48, "lazy_grad_sum": false}
+forward
+1 1
+192 _
+90
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 47, "lazy_grad_sum": false}
+forward
+4 1
+53 _
+75 _
+86 _
+95 _
+99
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 50, "lazy_grad_sum": false}
+forward
+1 1
+99 _
+208
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 51, "lazy_grad_sum": false}
+forward
+3 1
+208 _
+107 _
+108 _
+218
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 52, "lazy_grad_sum": false}
+forward
+1 1
+243 _
+249
+Reshape
+{"shape": [32, -1], "_cnt": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 59, "lazy_grad_sum": false}
+forward
+3 1
+121 _
+37 _
+39 _
+124
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 11, "lazy_grad_sum": false}
+forward
+1 1
+15 _
+121
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 10, "lazy_grad_sum": false}
+forward
+4 1
+16 _
+24 _
+116 _
+124 _
+130
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 13, "lazy_grad_sum": false}
+forward
+1 1
+112 _
+134
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 16, "lazy_grad_sum": false}
+forward
+1 1
+130 _
+131
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 14, "lazy_grad_sum": false}
+forward
+1 1
+140 _
+144
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 16, "lazy_grad_sum": false}
+forward
+3 1
+131 _
+125 _
+129 _
+140
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 15, "lazy_grad_sum": false}
+forward
+3 1
+152 _
+153 _
+157 _
+128
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 21, "lazy_grad_sum": false}
+forward
+3 1
+254 _
+212 _
+216 _
+241
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 26, "lazy_grad_sum": false}
+forward
+3 1
+152 _
+54 _
+59 _
+213
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 21, "lazy_grad_sum": false}
+forward
+3 1
+144 _
+135 _
+139 _
+146
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 17, "lazy_grad_sum": false}
+forward
+3 1
+149 _
+143 _
+148 _
+155
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 16, "lazy_grad_sum": false}
+forward
+3 1
+194 _
+142 _
+147 _
+160
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 41, "lazy_grad_sum": false}
+forward
+1 1
+131 _
+149
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 15, "lazy_grad_sum": false}
+forward
+4 1
+19 _
+136 _
+146 _
+155 _
+158
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 18, "lazy_grad_sum": false}
+forward
+3 1
+254 _
+221 _
+227 _
+224
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 26, "lazy_grad_sum": false}
+forward
+3 1
+180 _
+64 _
+68 _
+228
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 31, "lazy_grad_sum": false}
+forward
+1 1
+158 _
+211
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 19, "lazy_grad_sum": false}
+forward
+1 1
+4 _
+7
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 5, "lazy_grad_sum": false}
+forward
+3 1
+217 _
+65 _
+69 _
+219
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 23, "lazy_grad_sum": false}
+forward
+1 1
+173 _
+183
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 32, "lazy_grad_sum": false}
+forward
+1 1
+159 _
+196
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 42, "lazy_grad_sum": false}
+forward
+3 1
+169 _
+52 _
+56 _
+171
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 27, "lazy_grad_sum": false}
+forward
+4 1
+241 _
+257 _
+163 _
+171 _
+177
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 29, "lazy_grad_sum": false}
+forward
+1 1
+170 _
+175
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 37, "lazy_grad_sum": false}
+forward
+3 1
+183 _
+84 _
+88 _
+185
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 33, "lazy_grad_sum": false}
+forward
+3 1
+175 _
+123 _
+127 _
+176
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 38, "lazy_grad_sum": false}
+forward
+1 1
+177 _
+180
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 30, "lazy_grad_sum": false}
+forward
+3 1
+164 _
+258 _
+261 _
+166
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 38, "lazy_grad_sum": false}
+forward
+3 1
+182 _
+133 _
+138 _
+187
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 37, "lazy_grad_sum": false}
+forward
+1 1
+244 _
+72
+AveragePooling2D
+{"kh": 7, "kw": 7, "sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 57, "lazy_grad_sum": false}
+forward
+1 1
+162 _
+182
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 36, "lazy_grad_sum": false}
+forward
+1 1
+191 _
+195
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 32, "lazy_grad_sum": false}
+forward
+3 1
+162 _
+246 _
+250 _
+189
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 36, "lazy_grad_sum": false}
+forward
+4 1
+202 _
+166 _
+176 _
+187 _
+190
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 39, "lazy_grad_sum": false}
+forward
+3 1
+196 _
+28 _
+30 _
+198
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 43, "lazy_grad_sum": false}
+forward
+1 1
+189 _
+164
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 37, "lazy_grad_sum": false}
+forward
+3 1
+234 _
+111 _
+179 _
+184
+Convolution2DFunction
+{"sy": 2, "sx": 2, "ph": 3, "pw": 3, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 0, "lazy_grad_sum": false}
+forward
+3 1
+208 _
+103 _
+104 _
+67
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 52, "lazy_grad_sum": false}
+forward
+3 1
+194 _
+151 _
+156 _
+159
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 41, "lazy_grad_sum": false}
+forward
+1 1
+184 _
+255
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 1, "lazy_grad_sum": false}
+forward
+3 1
+180 _
+93 _
+97 _
+191
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 31, "lazy_grad_sum": false}
+forward
+1 1
+255 _
+41
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 2, "sx": 2, "ph": 0, "pw": 0, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 2, "lazy_grad_sum": false}
+forward
+1 1
+190 _
+194
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 40, "lazy_grad_sum": false}
+forward
+1 1
+201 _
+205
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 42, "lazy_grad_sum": false}
+forward
+3 1
+195 _
+210 _
+215 _
+197
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 33, "lazy_grad_sum": false}
+forward
+3 1
+194 _
+32 _
+34 _
+201
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 41, "lazy_grad_sum": false}
+forward
+3 1
+200 _
+220 _
+225 _
+203
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 32, "lazy_grad_sum": false}
+forward
+2 1
+6 _
+240 _
+21
+SoftmaxCrossEntropy
+{"normalize": true, "cache_score": true, "class_weight": null, "ignore_label": -1, "reduce": "mean", "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 33, "lazy_grad_sum": false}
+forward
+1 1
+180 _
+200
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 31, "lazy_grad_sum": false}
+forward
+3 1
+208 _
+101 _
+102 _
+92
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 52, "lazy_grad_sum": false}
+forward
+4 1
+228 _
+185 _
+197 _
+203 _
+207
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 34, "lazy_grad_sum": false}
+forward
+1 1
+66 _
+192
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 2, "sx": 2, "ph": 0, "pw": 0, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 46, "lazy_grad_sum": false}
+forward
+3 1
+205 _
+36 _
+38 _
+206
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 43, "lazy_grad_sum": false}
+forward
+1 1
+207 _
+162
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 35, "lazy_grad_sum": false}
+forward
+3 1
+162 _
+114 _
+119 _
+170
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 36, "lazy_grad_sum": false}
+forward
+3 1
+51 _
+40 _
+43 _
+58
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 42, "lazy_grad_sum": false}
+forward
+3 1
+192 _
+45 _
+47 _
+53
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 47, "lazy_grad_sum": false}
+forward
+1 1
+194 _
+51
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 41, "lazy_grad_sum": false}
+forward
+1 1
+213 _
+217
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 22, "lazy_grad_sum": false}
+forward
+3 1
+256 _
+233 _
+238 _
+257
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 28, "lazy_grad_sum": false}
+forward
+1 1
+218 _
+222
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 53, "lazy_grad_sum": false}
+forward
+1 1
+226 _
+229
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 22, "lazy_grad_sum": false}
+forward
+3 1
+222 _
+109 _
+110 _
+223
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 54, "lazy_grad_sum": false}
+forward
+1 1
+224 _
+256
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 27, "lazy_grad_sum": false}
+forward
+3 1
+152 _
+77 _
+80 _
+226
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 21, "lazy_grad_sum": false}
+forward
+3 1
+7 _
+188 _
+193 _
+8
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 6, "lazy_grad_sum": false}
+forward
+3 1
+230 _
+49 _
+55 _
+235
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 53, "lazy_grad_sum": false}
+forward
+1 1
+208 _
+230
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 52, "lazy_grad_sum": false}
+forward
+3 1
+229 _
+85 _
+89 _
+231
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 23, "lazy_grad_sum": false}
+forward
+3 1
+236 _
+94 _
+98 _
+242
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 22, "lazy_grad_sum": false}
+forward
+4 1
+92 _
+214 _
+223 _
+235 _
+239
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 55, "lazy_grad_sum": false}
+forward
+1 1
+152 _
+236
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 21, "lazy_grad_sum": false}
+forward
+1 1
+239 _
+244
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 56, "lazy_grad_sum": false}
+forward
+3 1
+249 _
+60 _
+63 _
+260
+LinearFunction
+{"_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_config_use_ideep": "never", "_output_count": 1, "rank": 60, "lazy_grad_sum": false}
+forward
+4 1
+128 _
+219 _
+231 _
+242 _
+248
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 24, "lazy_grad_sum": false}
+forward
+1 1
+248 _
+254
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 25, "lazy_grad_sum": false}
+forward
+1 1
+264 _
+161
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 27, "lazy_grad_sum": false}
+forward
+1 1
+265 _
+0
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 28, "lazy_grad_sum": false}
+forward
+3 1
+1 _
+79 _
+82 _
+5
+LinearFunction
+{"_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_config_use_ideep": "never", "_output_count": 1, "rank": 30, "lazy_grad_sum": false}
+forward
+3 1
+162 _
+232 _
+237 _
+202
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 36, "lazy_grad_sum": false}
+forward
+3 1
+254 _
+247 _
+251 _
+264
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 26, "lazy_grad_sum": false}
+forward
+3 1
+263 _
+70 _
+73 _
+265
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 27, "lazy_grad_sum": false}
+forward
+2 1
+20 _
+245 _
+25
+SoftmaxCrossEntropy
+{"normalize": true, "cache_score": true, "class_weight": null, "ignore_label": -1, "reduce": "mean", "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 48, "lazy_grad_sum": false}
+forward
+1 1
+254 _
+263
+AveragePooling2D
+{"kh": 5, "kw": 5, "sy": 3, "sx": 3, "ph": 0, "pw": 0, "cover_all": false, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 26, "lazy_grad_sum": false}
+forward
+3 1
+180 _
+76 _
+78 _
+173
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 31, "lazy_grad_sum": false}
+forward
+3 1
+161 _
+259 _
+262 _
+163
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 28, "lazy_grad_sum": false}
+forward
+1 1
+5 _
+3
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 31, "lazy_grad_sum": false}
+forward
+1 1
+0 _
+1
+Reshape
+{"shape": [32, -1], "_cnt": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 29, "lazy_grad_sum": false}
+forward
+1 1
+254 _
+169
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 26, "lazy_grad_sum": false}
+backward
+3 1
+9 gradient
+194 input
+9 output
+194
+AveragePooling2D
+{"kh": 5, "kw": 5, "sy": 3, "sx": 3, "ph": 0, "pw": 0, "cover_all": false, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 41, "lazy_grad_sum": false}
+backward
+3 1
+12 gradient
+10 input
+12 output
+10
+LocalResponseNormalization
+{"n": 5, "k": 1, "alpha": 2e-05, "beta": 0.75, "indexes": null, "unit_scale": null, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 8, "lazy_grad_sum": false}
+backward
+4 3
+6 gradient
+3 input
+87 input
+91 input
+3
+87
+91
+LinearFunction
+{"_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_config_use_ideep": "never", "_output_count": 1, "rank": 32, "lazy_grad_sum": false}
+backward
+2 1
+10 gradient
+10 output
+8
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 7, "lazy_grad_sum": false}
+backward
+4 3
+11 gradient
+9 input
+96 input
+100 input
+9
+96
+100
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 42, "lazy_grad_sum": false}
+backward
+4 3
+22 gradient
+15 input
+27 input
+29 input
+15
+27
+29
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 10, "lazy_grad_sum": false}
+backward
+2 1
+13 gradient
+13 output
+11
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 43, "lazy_grad_sum": false}
+backward
+3 1
+15 gradient
+12 input
+15 output
+12
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 2, "sx": 2, "ph": 0, "pw": 0, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 9, "lazy_grad_sum": false}
+backward
+4 3
+18 gradient
+14 input
+165 input
+168 input
+14
+165
+168
+LinearFunction
+{"_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_config_use_ideep": "never", "_output_count": 1, "rank": 45, "lazy_grad_sum": false}
+backward
+4 3
+16 gradient
+15 input
+199 input
+204 input
+15
+199
+204
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 10, "lazy_grad_sum": false}
+backward
+2 1
+14 gradient
+13 input
+13
+Reshape
+{"shape": [32, -1], "_cnt": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 44, "lazy_grad_sum": false}
+backward
+2 1
+17 gradient
+17 output
+18
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 46, "lazy_grad_sum": false}
+backward
+4 3
+19 gradient
+131 input
+42 input
+44 input
+131
+42
+44
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 15, "lazy_grad_sum": false}
+backward
+4 3
+136 gradient
+134 input
+117 input
+120 input
+134
+117
+120
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 17, "lazy_grad_sum": false}
+backward
+4 3
+20 gradient
+17 input
+172 input
+178 input
+17
+172
+178
+LinearFunction
+{"_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_config_use_ideep": "never", "_output_count": 1, "rank": 47, "lazy_grad_sum": false}
+backward
+2 1
+23 gradient
+23 output
+22
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 11, "lazy_grad_sum": false}
+backward
+4 3
+24 gradient
+23 input
+31 input
+33 input
+23
+31
+33
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 12, "lazy_grad_sum": false}
+backward
+2 1
+115 gradient
+115 output
+26
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 11, "lazy_grad_sum": false}
+backward
+3 1
+152 gradient
+211 input
+152 output
+211
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 2, "sx": 2, "ph": 0, "pw": 0, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 20, "lazy_grad_sum": false}
+backward
+4 3
+26 gradient
+15 input
+35 input
+174 input
+15
+35
+174
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 10, "lazy_grad_sum": false}
+backward
+3 2
+50 gradient
+260 input
+253 input
+260
+253
+SoftmaxCrossEntropy
+{"normalize": true, "cache_score": true, "class_weight": null, "ignore_label": -1, "reduce": "mean", "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 61, "lazy_grad_sum": false}
+backward
+4 3
+112 gradient
+131 input
+46 input
+48 input
+131
+46
+48
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 15, "lazy_grad_sum": false}
+backward
+4 3
+116 gradient
+115 input
+167 input
+252 input
+115
+167
+252
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 12, "lazy_grad_sum": false}
+backward
+3 2
+57 gradient
+21 input
+25 input
+21
+25
+Add
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 49, "lazy_grad_sum": false}
+backward
+3 1
+2 gradient
+41 input
+2 output
+41
+LocalResponseNormalization
+{"n": 5, "k": 1, "alpha": 2e-05, "beta": 0.75, "indexes": null, "unit_scale": null, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 3, "lazy_grad_sum": false}
+backward
+4 3
+4 gradient
+2 input
+181 input
+186 input
+2
+181
+186
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 4, "lazy_grad_sum": false}
+backward
+5 4
+62 gradient
+160 input
+198 input
+206 input
+58 input
+160
+198
+206
+58
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 44, "lazy_grad_sum": false}
+backward
+3 2
+61 gradient
+57 input
+50 input
+57
+50
+Add
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 62, "lazy_grad_sum": false}
+backward
+2 1
+66 gradient
+66 output
+62
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 45, "lazy_grad_sum": false}
+backward
+2 1
+209 gradient
+209 output
+67
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 53, "lazy_grad_sum": false}
+backward
+4 3
+71 gradient
+192 input
+113 input
+118 input
+192
+113
+118
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 47, "lazy_grad_sum": false}
+backward
+2 1
+74 gradient
+74 output
+71
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 48, "lazy_grad_sum": false}
+backward
+4 3
+75 gradient
+74 input
+122 input
+126 input
+74
+122
+126
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 49, "lazy_grad_sum": false}
+backward
+2 1
+83 gradient
+83 output
+81
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 48, "lazy_grad_sum": false}
+backward
+4 3
+81 gradient
+192 input
+132 input
+137 input
+192
+132
+137
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 47, "lazy_grad_sum": false}
+backward
+2 1
+243 gradient
+72 input
+72
+Dropout
+{"dropout_ratio": 0.4, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 58, "lazy_grad_sum": false}
+backward
+4 3
+86 gradient
+83 input
+141 input
+145 input
+83
+141
+145
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 49, "lazy_grad_sum": false}
+backward
+4 3
+214 gradient
+209 input
+105 input
+106 input
+209
+105
+106
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 54, "lazy_grad_sum": false}
+backward
+4 3
+95 gradient
+90 input
+150 input
+154 input
+90
+150
+154
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 48, "lazy_grad_sum": false}
+backward
+3 1
+90 gradient
+192 input
+90 output
+192
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 47, "lazy_grad_sum": false}
+backward
+5 4
+99 gradient
+53 input
+75 input
+86 input
+95 input
+53
+75
+86
+95
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 50, "lazy_grad_sum": false}
+backward
+2 1
+208 gradient
+208 output
+99
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 51, "lazy_grad_sum": false}
+backward
+4 3
+218 gradient
+208 input
+107 input
+108 input
+208
+107
+108
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 52, "lazy_grad_sum": false}
+backward
+2 1
+249 gradient
+243 input
+243
+Reshape
+{"shape": [32, -1], "_cnt": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 59, "lazy_grad_sum": false}
+backward
+4 3
+124 gradient
+121 input
+37 input
+39 input
+121
+37
+39
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 11, "lazy_grad_sum": false}
+backward
+3 1
+121 gradient
+15 input
+121 output
+15
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 10, "lazy_grad_sum": false}
+backward
+5 4
+130 gradient
+16 input
+24 input
+116 input
+124 input
+16
+24
+116
+124
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 13, "lazy_grad_sum": false}
+backward
+2 1
+134 gradient
+134 output
+112
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 16, "lazy_grad_sum": false}
+backward
+2 1
+131 gradient
+131 output
+130
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 14, "lazy_grad_sum": false}
+backward
+2 1
+144 gradient
+144 output
+140
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 16, "lazy_grad_sum": false}
+backward
+4 3
+140 gradient
+131 input
+125 input
+129 input
+131
+125
+129
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 15, "lazy_grad_sum": false}
+backward
+4 3
+128 gradient
+152 input
+153 input
+157 input
+152
+153
+157
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 21, "lazy_grad_sum": false}
+backward
+4 3
+241 gradient
+254 input
+212 input
+216 input
+254
+212
+216
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 26, "lazy_grad_sum": false}
+backward
+4 3
+213 gradient
+152 input
+54 input
+59 input
+152
+54
+59
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 21, "lazy_grad_sum": false}
+backward
+4 3
+146 gradient
+144 input
+135 input
+139 input
+144
+135
+139
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 17, "lazy_grad_sum": false}
+backward
+4 3
+155 gradient
+149 input
+143 input
+148 input
+149
+143
+148
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 16, "lazy_grad_sum": false}
+backward
+4 3
+160 gradient
+194 input
+142 input
+147 input
+194
+142
+147
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 41, "lazy_grad_sum": false}
+backward
+3 1
+149 gradient
+131 input
+149 output
+131
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 15, "lazy_grad_sum": false}
+backward
+5 4
+158 gradient
+19 input
+136 input
+146 input
+155 input
+19
+136
+146
+155
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 18, "lazy_grad_sum": false}
+backward
+4 3
+224 gradient
+254 input
+221 input
+227 input
+254
+221
+227
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 26, "lazy_grad_sum": false}
+backward
+4 3
+228 gradient
+180 input
+64 input
+68 input
+180
+64
+68
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 31, "lazy_grad_sum": false}
+backward
+2 1
+211 gradient
+211 output
+158
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 19, "lazy_grad_sum": false}
+backward
+2 1
+7 gradient
+7 output
+4
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 5, "lazy_grad_sum": false}
+backward
+4 3
+219 gradient
+217 input
+65 input
+69 input
+217
+65
+69
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 23, "lazy_grad_sum": false}
+backward
+2 1
+183 gradient
+183 output
+173
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 32, "lazy_grad_sum": false}
+backward
+2 1
+196 gradient
+196 output
+159
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 42, "lazy_grad_sum": false}
+backward
+4 3
+171 gradient
+169 input
+52 input
+56 input
+169
+52
+56
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 27, "lazy_grad_sum": false}
+backward
+5 4
+177 gradient
+241 input
+257 input
+163 input
+171 input
+241
+257
+163
+171
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 29, "lazy_grad_sum": false}
+backward
+2 1
+175 gradient
+175 output
+170
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 37, "lazy_grad_sum": false}
+backward
+4 3
+185 gradient
+183 input
+84 input
+88 input
+183
+84
+88
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 33, "lazy_grad_sum": false}
+backward
+4 3
+176 gradient
+175 input
+123 input
+127 input
+175
+123
+127
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 38, "lazy_grad_sum": false}
+backward
+2 1
+180 gradient
+180 output
+177
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 30, "lazy_grad_sum": false}
+backward
+4 3
+166 gradient
+164 input
+258 input
+261 input
+164
+258
+261
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 38, "lazy_grad_sum": false}
+backward
+4 3
+187 gradient
+182 input
+133 input
+138 input
+182
+133
+138
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 37, "lazy_grad_sum": false}
+backward
+3 1
+72 gradient
+244 input
+72 output
+244
+AveragePooling2D
+{"kh": 7, "kw": 7, "sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 57, "lazy_grad_sum": false}
+backward
+3 1
+182 gradient
+162 input
+182 output
+162
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 36, "lazy_grad_sum": false}
+backward
+2 1
+195 gradient
+195 output
+191
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 32, "lazy_grad_sum": false}
+backward
+4 3
+189 gradient
+162 input
+246 input
+250 input
+162
+246
+250
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 36, "lazy_grad_sum": false}
+backward
+5 4
+190 gradient
+202 input
+166 input
+176 input
+187 input
+202
+166
+176
+187
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 39, "lazy_grad_sum": false}
+backward
+4 3
+198 gradient
+196 input
+28 input
+30 input
+196
+28
+30
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 43, "lazy_grad_sum": false}
+backward
+2 1
+164 gradient
+164 output
+189
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 37, "lazy_grad_sum": false}
+backward
+4 3
+184 gradient
+234 input
+111 input
+179 input
+234
+111
+179
+Convolution2DFunction
+{"sy": 2, "sx": 2, "ph": 3, "pw": 3, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 0, "lazy_grad_sum": false}
+backward
+4 3
+67 gradient
+208 input
+103 input
+104 input
+208
+103
+104
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 52, "lazy_grad_sum": false}
+backward
+4 3
+159 gradient
+194 input
+151 input
+156 input
+194
+151
+156
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 41, "lazy_grad_sum": false}
+backward
+2 1
+255 gradient
+255 output
+184
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 1, "lazy_grad_sum": false}
+backward
+4 3
+191 gradient
+180 input
+93 input
+97 input
+180
+93
+97
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 31, "lazy_grad_sum": false}
+backward
+3 1
+41 gradient
+255 input
+41 output
+255
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 2, "sx": 2, "ph": 0, "pw": 0, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 2, "lazy_grad_sum": false}
+backward
+2 1
+194 gradient
+194 output
+190
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 40, "lazy_grad_sum": false}
+backward
+2 1
+205 gradient
+205 output
+201
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 42, "lazy_grad_sum": false}
+backward
+4 3
+197 gradient
+195 input
+210 input
+215 input
+195
+210
+215
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 33, "lazy_grad_sum": false}
+backward
+4 3
+201 gradient
+194 input
+32 input
+34 input
+194
+32
+34
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 41, "lazy_grad_sum": false}
+backward
+4 3
+203 gradient
+200 input
+220 input
+225 input
+200
+220
+225
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 32, "lazy_grad_sum": false}
+backward
+3 2
+21 gradient
+6 input
+240 input
+6
+240
+SoftmaxCrossEntropy
+{"normalize": true, "cache_score": true, "class_weight": null, "ignore_label": -1, "reduce": "mean", "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 33, "lazy_grad_sum": false}
+backward
+3 1
+200 gradient
+180 input
+200 output
+180
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 31, "lazy_grad_sum": false}
+backward
+4 3
+92 gradient
+208 input
+101 input
+102 input
+208
+101
+102
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 52, "lazy_grad_sum": false}
+backward
+5 4
+207 gradient
+228 input
+185 input
+197 input
+203 input
+228
+185
+197
+203
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 34, "lazy_grad_sum": false}
+backward
+3 1
+192 gradient
+66 input
+192 output
+66
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 2, "sx": 2, "ph": 0, "pw": 0, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 46, "lazy_grad_sum": false}
+backward
+4 3
+206 gradient
+205 input
+36 input
+38 input
+205
+36
+38
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 43, "lazy_grad_sum": false}
+backward
+2 1
+162 gradient
+162 output
+207
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 35, "lazy_grad_sum": false}
+backward
+4 3
+170 gradient
+162 input
+114 input
+119 input
+162
+114
+119
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 36, "lazy_grad_sum": false}
+backward
+4 3
+58 gradient
+51 input
+40 input
+43 input
+51
+40
+43
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 42, "lazy_grad_sum": false}
+backward
+4 3
+53 gradient
+192 input
+45 input
+47 input
+192
+45
+47
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 47, "lazy_grad_sum": false}
+backward
+3 1
+51 gradient
+194 input
+51 output
+194
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 41, "lazy_grad_sum": false}
+backward
+2 1
+217 gradient
+217 output
+213
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 22, "lazy_grad_sum": false}
+backward
+4 3
+257 gradient
+256 input
+233 input
+238 input
+256
+233
+238
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 28, "lazy_grad_sum": false}
+backward
+2 1
+222 gradient
+222 output
+218
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 53, "lazy_grad_sum": false}
+backward
+2 1
+229 gradient
+229 output
+226
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 22, "lazy_grad_sum": false}
+backward
+4 3
+223 gradient
+222 input
+109 input
+110 input
+222
+109
+110
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 54, "lazy_grad_sum": false}
+backward
+2 1
+256 gradient
+256 output
+224
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 27, "lazy_grad_sum": false}
+backward
+4 3
+226 gradient
+152 input
+77 input
+80 input
+152
+77
+80
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 21, "lazy_grad_sum": false}
+backward
+4 3
+8 gradient
+7 input
+188 input
+193 input
+7
+188
+193
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 6, "lazy_grad_sum": false}
+backward
+4 3
+235 gradient
+230 input
+49 input
+55 input
+230
+49
+55
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 53, "lazy_grad_sum": false}
+backward
+3 1
+230 gradient
+208 input
+230 output
+208
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 52, "lazy_grad_sum": false}
+backward
+4 3
+231 gradient
+229 input
+85 input
+89 input
+229
+85
+89
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 23, "lazy_grad_sum": false}
+backward
+4 3
+242 gradient
+236 input
+94 input
+98 input
+236
+94
+98
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 22, "lazy_grad_sum": false}
+backward
+5 4
+239 gradient
+92 input
+214 input
+223 input
+235 input
+92
+214
+223
+235
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 55, "lazy_grad_sum": false}
+backward
+3 1
+236 gradient
+152 input
+236 output
+152
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 21, "lazy_grad_sum": false}
+backward
+2 1
+244 gradient
+244 output
+239
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 56, "lazy_grad_sum": false}
+backward
+4 3
+260 gradient
+249 input
+60 input
+63 input
+249
+60
+63
+LinearFunction
+{"_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_config_use_ideep": "never", "_output_count": 1, "rank": 60, "lazy_grad_sum": false}
+backward
+5 4
+248 gradient
+128 input
+219 input
+231 input
+242 input
+128
+219
+231
+242
+Concat
+{"axis": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 24, "lazy_grad_sum": false}
+backward
+2 1
+254 gradient
+254 output
+248
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 25, "lazy_grad_sum": false}
+backward
+2 1
+161 gradient
+161 output
+264
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 27, "lazy_grad_sum": false}
+backward
+2 1
+0 gradient
+0 output
+265
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 28, "lazy_grad_sum": false}
+backward
+4 3
+5 gradient
+1 input
+79 input
+82 input
+1
+79
+82
+LinearFunction
+{"_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_config_use_ideep": "never", "_output_count": 1, "rank": 30, "lazy_grad_sum": false}
+backward
+4 3
+202 gradient
+162 input
+232 input
+237 input
+162
+232
+237
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 36, "lazy_grad_sum": false}
+backward
+4 3
+264 gradient
+254 input
+247 input
+251 input
+254
+247
+251
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 26, "lazy_grad_sum": false}
+backward
+4 3
+265 gradient
+263 input
+70 input
+73 input
+263
+70
+73
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 27, "lazy_grad_sum": false}
+backward
+3 2
+25 gradient
+20 input
+245 input
+20
+245
+SoftmaxCrossEntropy
+{"normalize": true, "cache_score": true, "class_weight": null, "ignore_label": -1, "reduce": "mean", "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 48, "lazy_grad_sum": false}
+backward
+3 1
+263 gradient
+254 input
+263 output
+254
+AveragePooling2D
+{"kh": 5, "kw": 5, "sy": 3, "sx": 3, "ph": 0, "pw": 0, "cover_all": false, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 26, "lazy_grad_sum": false}
+backward
+4 3
+173 gradient
+180 input
+76 input
+78 input
+180
+76
+78
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 0, "pw": 0, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 31, "lazy_grad_sum": false}
+backward
+4 3
+163 gradient
+161 input
+259 input
+262 input
+161
+259
+262
+Convolution2DFunction
+{"sy": 1, "sx": 1, "ph": 2, "pw": 2, "cover_all": false, "dy": 1, "dx": 1, "groups": 1, "_input_indexes_to_retain": [0, 1], "_output_indexes_to_retain": null, "_output_count": 1, "rank": 28, "lazy_grad_sum": false}
+backward
+2 1
+3 gradient
+3 output
+5
+ReLU
+{"_input_indexes_to_retain": null, "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 31, "lazy_grad_sum": false}
+backward
+2 1
+1 gradient
+0 input
+0
+Reshape
+{"shape": [32, -1], "_cnt": 1, "_input_indexes_to_retain": null, "_output_indexes_to_retain": null, "_output_count": 1, "rank": 29, "lazy_grad_sum": false}
+backward
+3 1
+169 gradient
+254 input
+169 output
+254
+MaxPooling2D
+{"kh": 3, "kw": 3, "sy": 1, "sx": 1, "ph": 1, "pw": 1, "cover_all": true, "return_indices": false, "_used_cudnn": true, "_input_indexes_to_retain": [0], "_output_indexes_to_retain": [0], "_output_count": 1, "rank": 26, "lazy_grad_sum": false}
